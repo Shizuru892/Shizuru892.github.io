@@ -1,10 +1,26 @@
 {
   "site": {
-    "name": "Pixel Folio",
+    "name": "Shizuru",
     "tagline": "Small pixels. Endless possibilities.",
     "description": "A collection of pixel art, little worlds, and characters with a life of their own. Explore the work, one collection at a time."
   },
   "categories": [
+    {
+      "id": "sliverdog-boss-animations",
+      "title": "Boss Animations",
+      "short": "Boss GIFs",
+      "description": "A complete set of attacks, reactions, and movement for one boss.",
+      "style": "Creature attacks, movement and reactions",
+      "layout": "landscape"
+    },
+    {
+      "id": "mudassir-fighter-animations",
+      "title": "Fighter Animations",
+      "short": "Fighter GIFs",
+      "description": "Combat and reaction loops from one character set.",
+      "style": "Hand-to-hand combat and character animation",
+      "layout": "square"
+    },
     {
       "id": "backgrounds",
       "title": "Backgrounds & Environments",
@@ -52,6 +68,78 @@
       "description": "Interfaces with character. A cohesive collection of Minecraft-inspired pixel menus.",
       "style": "Minecraft-inspired interfaces",
       "layout": "square"
+    },
+    {
+      "id": "angga-boss-scenes",
+      "title": "Boss Fight Scenes",
+      "short": "Boss scenes",
+      "description": "A single scene built around a boss encounter.",
+      "style": "Cinematic boss encounter pixel art",
+      "layout": "landscape"
+    },
+    {
+      "id": "lynchantiure-vehicles",
+      "title": "Sci-Fi Vehicles",
+      "short": "Vehicles",
+      "description": "Ships and assault craft in one industrial pixel-art style.",
+      "style": "Industrial sci-fi vehicles",
+      "layout": "landscape"
+    },
+    {
+      "id": "lynchantiure-armor",
+      "title": "Sci-Fi Armor Sets",
+      "short": "Armor sets",
+      "description": "Character armor palettes and sprite sheets in a consistent sci-fi style.",
+      "style": "Armor palettes and character sprite sheets",
+      "layout": "landscape"
+    },
+    {
+      "id": "lynchantiure-tilesets",
+      "title": "Sci-Fi Tilesets",
+      "short": "Tilesets",
+      "description": "Modular sci-fi environment tiles in a shared palette.",
+      "style": "Modular sci-fi environment tiles",
+      "layout": "landscape"
+    },
+    {
+      "id": "mike-oakley-scenes",
+      "title": "Arcade Scenes",
+      "short": "Arcade scenes",
+      "description": "Retro arcade scenes with detailed, cinematic pixel rendering.",
+      "style": "Cinematic arcade scenes",
+      "layout": "landscape"
+    },
+    {
+      "id": "pixel-hwi-chimera-animations",
+      "title": "Chimera Animations",
+      "short": "Chimera GIFs",
+      "description": "Attack, idle, and defeat loops for one detailed chimera.",
+      "style": "Detailed chimera animation set",
+      "layout": "landscape"
+    },
+    {
+      "id": "rembrandt-bossaqua",
+      "title": "Bossaqua",
+      "short": "Bossaqua",
+      "description": "A single aquatic creature study.",
+      "style": "Aquatic creature pixel art",
+      "layout": "square"
+    },
+    {
+      "id": "rembrandt-hippodragon-animations",
+      "title": "Hippodragon Animations",
+      "short": "Hippodragon GIFs",
+      "description": "Idle and defeat loops for one aquatic dragon.",
+      "style": "Aquatic dragon animation set",
+      "layout": "landscape"
+    },
+    {
+      "id": "sumin-bae-boss-animations",
+      "title": "Owl Boss Animations",
+      "short": "Owl boss GIFs",
+      "description": "Idle and forward movement for one pixel-art boss.",
+      "style": "Owl creature animation set",
+      "layout": "square"
     }
   ],
   "artworks": [
@@ -60,308 +148,759 @@
       "title": "Cloaked wanderer",
       "category": "characters",
       "src": "assets/dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-detailed-2d-pixel-art-char-0-1.png",
-      "artist": "Dark Logic Studios",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 1920,
       "height": 1920,
       "animated": false,
-      "alt": "Cloaked wanderer \u2014 Dark Logic Studios pixel art"
+      "alt": "Cloaked wanderer — pixel art"
     },
     {
       "id": "dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-detailed-2d-pixel-art-char-1-1",
       "title": "Shadow caster",
       "category": "characters",
       "src": "assets/dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-detailed-2d-pixel-art-char-1-1.png",
-      "artist": "Dark Logic Studios",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 1920,
       "height": 1920,
       "animated": false,
-      "alt": "Shadow caster \u2014 Dark Logic Studios pixel art"
+      "alt": "Shadow caster — pixel art"
     },
     {
       "id": "dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-detailed-2d-pixel-art-char-3-1",
       "title": "Armored sentinel",
       "category": "characters",
       "src": "assets/dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-detailed-2d-pixel-art-char-3-1.png",
-      "artist": "Dark Logic Studios",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 1920,
       "height": 1920,
       "animated": false,
-      "alt": "Armored sentinel \u2014 Dark Logic Studios pixel art"
+      "alt": "Armored sentinel — pixel art"
     },
     {
       "id": "dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-2d-stylized-pixel-art-asse-0-1",
       "title": "Dungeon essentials",
       "category": "items",
       "src": "assets/dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-2d-stylized-pixel-art-asse-0-1.png",
-      "artist": "Dark Logic Studios",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 1920,
       "height": 1920,
       "animated": false,
-      "alt": "Dungeon essentials \u2014 Dark Logic Studios pixel art"
+      "alt": "Dungeon essentials — pixel art"
     },
     {
       "id": "dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-2d-stylized-pixel-art-asse-1-1",
       "title": "Alchemy & adventure",
       "category": "items",
       "src": "assets/dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-2d-stylized-pixel-art-asse-1-1.png",
-      "artist": "Dark Logic Studios",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 1920,
       "height": 1920,
       "animated": false,
-      "alt": "Alchemy & adventure \u2014 Dark Logic Studios pixel art"
+      "alt": "Alchemy & adventure — pixel art"
     },
     {
       "id": "dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-2d-stylized-pixel-art-asse-2-1",
       "title": "Treasures & trinkets",
       "category": "items",
       "src": "assets/dark-logic-studios-lucid-origin-a-cinematic-photo-of-a-2d-stylized-pixel-art-asse-2-1.png",
-      "artist": "Dark Logic Studios",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 1920,
       "height": 1920,
       "animated": false,
-      "alt": "Treasures & trinkets \u2014 Dark Logic Studios pixel art"
+      "alt": "Treasures & trinkets — pixel art"
     },
     {
       "id": "ruan-quintino-sappling-idle",
       "title": "A moment of rest",
       "category": "animations",
       "src": "assets/ruan-quintino-sappling-idle.gif",
-      "artist": "Ruan Quintino",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 672,
       "height": 672,
       "animated": true,
-      "alt": "A moment of rest \u2014 Ruan Quintino pixel art"
+      "alt": "A moment of rest — animated pixel art"
     },
     {
       "id": "ruan-quintino-sappling-run",
       "title": "On the move",
       "category": "animations",
       "src": "assets/ruan-quintino-sappling-run.gif",
-      "artist": "Ruan Quintino",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 672,
       "height": 672,
       "animated": true,
-      "alt": "On the move \u2014 Ruan Quintino pixel art"
+      "alt": "On the move — animated pixel art"
     },
     {
       "id": "ruan-quintino-sappling-atk",
       "title": "First strike",
       "category": "animations",
       "src": "assets/ruan-quintino-sappling-atk.gif",
-      "artist": "Ruan Quintino",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 672,
       "height": 672,
       "animated": true,
-      "alt": "First strike \u2014 Ruan Quintino pixel art"
+      "alt": "First strike — animated pixel art"
     },
     {
       "id": "ruan-quintino-sappling-lancer-idle",
-      "title": "Lancer \u00b7 idle",
+      "title": "Lancer · idle",
       "category": "animations",
       "src": "assets/ruan-quintino-sappling-lancer-idle.gif",
-      "artist": "Ruan Quintino",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 672,
       "height": 672,
       "animated": true,
-      "alt": "Lancer \u00b7 idle \u2014 Ruan Quintino pixel art"
+      "alt": "Lancer · idle — animated pixel art"
     },
     {
       "id": "ruan-quintino-sappling-lancer-run",
-      "title": "Lancer \u00b7 run",
+      "title": "Lancer · run",
       "category": "animations",
       "src": "assets/ruan-quintino-sappling-lancer-run.gif",
-      "artist": "Ruan Quintino",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 672,
       "height": 672,
       "animated": true,
-      "alt": "Lancer \u00b7 run \u2014 Ruan Quintino pixel art"
+      "alt": "Lancer · run — animated pixel art"
     },
     {
       "id": "ruan-quintino-sappling-lancer-skill",
-      "title": "Lancer \u00b7 skill",
+      "title": "Lancer · skill",
       "category": "animations",
       "src": "assets/ruan-quintino-sappling-lancer-skill.gif",
-      "artist": "Ruan Quintino",
-      "source": "",
       "featured": true,
-      "placeholder": true,
       "width": 672,
       "height": 672,
       "animated": true,
-      "alt": "Lancer \u00b7 skill \u2014 Ruan Quintino pixel art"
+      "alt": "Lancer · skill — animated pixel art"
     },
     {
       "id": "coast",
       "title": "Drakestone Coast",
       "category": "backgrounds",
       "src": "assets/coast.png",
-      "artist": "Shady Glasses",
-      "source": "https://www.artstation.com/artwork/xDWZY2",
       "featured": true,
-      "placeholder": true,
       "width": 1184,
       "height": 800,
       "animated": false,
-      "alt": "Drakestone Coast \u2014 Shady Glasses pixel art"
+      "alt": "Drakestone Coast — pixel art"
     },
     {
       "id": "forest",
       "title": "Forest Mockup",
       "category": "backgrounds",
       "src": "assets/forest.png",
-      "artist": "Shady Glasses",
-      "source": "https://www.artstation.com/artwork/39Rvyv",
       "featured": true,
-      "placeholder": true,
       "width": 1280,
       "height": 960,
       "animated": false,
-      "alt": "Forest Mockup \u2014 Shady Glasses pixel art"
+      "alt": "Forest Mockup — pixel art"
     },
     {
       "id": "underworld",
       "title": "Underworld / Water",
       "category": "backgrounds",
       "src": "assets/underworld.png",
-      "artist": "Shady Glasses",
-      "source": "https://www.artstation.com/artwork/mDJPvd",
       "featured": true,
-      "placeholder": true,
       "width": 760,
       "height": 400,
       "animated": false,
-      "alt": "Underworld / Water \u2014 Shady Glasses pixel art"
+      "alt": "Underworld / Water — pixel art"
     },
     {
       "id": "silent",
       "title": "Silent",
       "category": "portraits",
       "src": "assets/silent.png",
-      "artist": "Nickelmain",
-      "source": "https://www.artstation.com/artwork/lEGAeJ",
       "featured": true,
-      "placeholder": true,
       "width": 1280,
       "height": 1280,
       "animated": false,
-      "alt": "Silent \u2014 Nickelmain pixel art"
+      "alt": "Silent — pixel art"
     },
     {
       "id": "birthday",
       "title": "Fat birthday",
       "category": "portraits",
       "src": "assets/birthday.png",
-      "artist": "Nickelmain",
-      "source": "https://www.artstation.com/artwork/q0JamD",
       "featured": true,
-      "placeholder": true,
       "width": 1280,
       "height": 1280,
       "animated": false,
-      "alt": "Fat birthday \u2014 Nickelmain pixel art"
+      "alt": "Fat birthday — pixel art"
     },
     {
       "id": "smoking",
       "title": "Smoking",
       "category": "portraits",
       "src": "assets/smoking.png",
-      "artist": "Nickelmain",
-      "source": "https://www.artstation.com/artwork/JwrmAd",
       "featured": true,
-      "placeholder": true,
       "width": 1920,
       "height": 1920,
       "animated": false,
-      "alt": "Smoking \u2014 Nickelmain pixel art"
+      "alt": "Smoking — pixel art"
     },
     {
       "id": "michael",
       "title": "Michael",
       "category": "portraits",
       "src": "assets/michael.png",
-      "artist": "Nickelmain",
-      "source": "https://www.artstation.com/artwork/V82EAX",
       "featured": true,
-      "placeholder": true,
       "width": 1280,
       "height": 1280,
       "animated": false,
-      "alt": "Michael \u2014 Nickelmain pixel art"
+      "alt": "Michael — pixel art"
     },
     {
       "id": "plush",
       "title": "Plush machine",
       "category": "ui",
       "src": "assets/plush.png",
-      "artist": "Nickelmain",
-      "source": "https://www.artstation.com/artwork/RqKmEX",
       "featured": true,
-      "placeholder": true,
       "width": 1760,
       "height": 2560,
       "animated": false,
-      "alt": "Plush machine \u2014 Nickelmain pixel art"
+      "alt": "Plush machine — pixel art"
     },
     {
       "id": "wondertrade",
       "title": "Wondertrade",
       "category": "ui",
       "src": "assets/wondertrade.png",
-      "artist": "Nickelmain",
-      "source": "https://www.artstation.com/artwork/P46way",
       "featured": true,
-      "placeholder": true,
       "width": 1760,
       "height": 2210,
       "animated": false,
-      "alt": "Wondertrade \u2014 Nickelmain pixel art"
+      "alt": "Wondertrade — pixel art"
     },
     {
       "id": "worlds",
       "title": "World selection",
       "category": "ui",
       "src": "assets/worlds.png",
-      "artist": "Nickelmain",
-      "source": "https://www.artstation.com/artwork/dLyXJQ",
       "featured": true,
-      "placeholder": true,
       "width": 1760,
       "height": 2210,
       "animated": false,
-      "alt": "World selection \u2014 Nickelmain pixel art"
+      "alt": "World selection — pixel art"
+    },
+    {
+      "id": "archive-anggakusumah-boss-fight",
+      "title": "Boss fight",
+      "category": "angga-boss-scenes",
+      "src": "assets/anggakusumah-boss-fight.webp",
+      "featured": true,
+      "width": 1920,
+      "height": 1080,
+      "animated": false,
+      "alt": "Boss fight — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-assaultship1",
+      "title": "Assault ship 1",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-assaultship1.webp",
+      "featured": true,
+      "width": 692,
+      "height": 424,
+      "animated": false,
+      "alt": "Assault ship 1 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-assaultship2",
+      "title": "Assault ship 2",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-assaultship2.webp",
+      "featured": true,
+      "width": 684,
+      "height": 452,
+      "animated": false,
+      "alt": "Assault ship 2 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-assaultship3",
+      "title": "Assault ship 3",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-assaultship3.webp",
+      "featured": true,
+      "width": 588,
+      "height": 536,
+      "animated": false,
+      "alt": "Assault ship 3 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-assaultship4",
+      "title": "Assault ship 4",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-assaultship4.webp",
+      "featured": true,
+      "width": 648,
+      "height": 404,
+      "animated": false,
+      "alt": "Assault ship 4 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-egyptian-armour",
+      "title": "Egyptian armor",
+      "category": "lynchantiure-armor",
+      "src": "assets/lynchantiure-egyptian-armour.webp",
+      "featured": true,
+      "width": 400,
+      "height": 400,
+      "animated": false,
+      "alt": "Egyptian armor — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-high-tech-armour",
+      "title": "High Tech armor",
+      "category": "lynchantiure-armor",
+      "src": "assets/lynchantiure-high-tech-armour.webp",
+      "featured": true,
+      "width": 1068,
+      "height": 400,
+      "animated": false,
+      "alt": "High Tech armor — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-low-tech-armour",
+      "title": "Low Tech armor",
+      "category": "lynchantiure-armor",
+      "src": "assets/lynchantiure-low-tech-armour.webp",
+      "featured": true,
+      "width": 1310,
+      "height": 400,
+      "animated": false,
+      "alt": "Low Tech armor — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-mid-tech-armour",
+      "title": "Mid Tech armor",
+      "category": "lynchantiure-armor",
+      "src": "assets/lynchantiure-mid-tech-armour.webp",
+      "featured": true,
+      "width": 960,
+      "height": 400,
+      "animated": false,
+      "alt": "Mid Tech armor — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-ship1",
+      "title": "Starship 1",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-ship1.webp",
+      "featured": true,
+      "width": 400,
+      "height": 480,
+      "animated": false,
+      "alt": "Starship 1 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-ship2",
+      "title": "Starship 2",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-ship2.webp",
+      "featured": true,
+      "width": 464,
+      "height": 488,
+      "animated": false,
+      "alt": "Starship 2 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-ship3",
+      "title": "Starship 3",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-ship3.webp",
+      "featured": true,
+      "width": 432,
+      "height": 468,
+      "animated": false,
+      "alt": "Starship 3 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-ship4",
+      "title": "Starship 4",
+      "category": "lynchantiure-vehicles",
+      "src": "assets/lynchantiure-ship4.webp",
+      "featured": true,
+      "width": 424,
+      "height": 528,
+      "animated": false,
+      "alt": "Starship 4 — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-tileset-concepts-showcase",
+      "title": "Tileset concepts",
+      "category": "lynchantiure-tilesets",
+      "src": "assets/lynchantiure-tileset-concepts-showcase.webp",
+      "featured": true,
+      "width": 812,
+      "height": 836,
+      "animated": false,
+      "alt": "Tileset concepts — pixel art"
+    },
+    {
+      "id": "archive-lynchantiure-tileset-full-showcase",
+      "title": "Full tileset showcase",
+      "category": "lynchantiure-tilesets",
+      "src": "assets/lynchantiure-tileset-full-showcase.webp",
+      "featured": true,
+      "width": 788,
+      "height": 504,
+      "animated": false,
+      "alt": "Full tileset showcase — pixel art"
+    },
+    {
+      "id": "archive-mike-oakley-mentalsluggery",
+      "title": "Mental Sluggery",
+      "category": "mike-oakley-scenes",
+      "src": "assets/mike-oakley-mentalsluggery.jpg",
+      "featured": true,
+      "width": 756,
+      "height": 948,
+      "animated": false,
+      "alt": "Mental Sluggery — pixel art"
+    },
+    {
+      "id": "archive-mike-oakley-r-type-remasterred",
+      "title": "R-Type Remastered",
+      "category": "mike-oakley-scenes",
+      "src": "assets/mike-oakley-r-type-remasterred.jpg",
+      "featured": true,
+      "width": 1810,
+      "height": 1340,
+      "animated": false,
+      "alt": "R-Type Remastered — pixel art"
+    },
+    {
+      "id": "archive-mike-oakley-res8-themerchant",
+      "title": "Resident Evil 8 · The Merchant",
+      "category": "mike-oakley-scenes",
+      "src": "assets/mike-oakley-res8-themerchant.jpg",
+      "featured": true,
+      "width": 633,
+      "height": 717,
+      "animated": false,
+      "alt": "Resident Evil 8 · The Merchant — pixel art"
+    },
+    {
+      "id": "archive-mike-oakley-thething-80sarcade",
+      "title": "The Thing · Arcade scene",
+      "category": "mike-oakley-scenes",
+      "src": "assets/mike-oakley-thething-80sarcade.jpg",
+      "featured": true,
+      "width": 1408,
+      "height": 960,
+      "animated": false,
+      "alt": "The Thing · Arcade scene — pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-afterimage-dodge-5-1-jones-1-1-color-4-1-export",
+      "title": "Afterimage dodge",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-afterimage-dodge-5-1-jones-1-1-color-4-1-export.gif",
+      "featured": true,
+      "width": 2304,
+      "height": 2304,
+      "animated": true,
+      "alt": "Afterimage dodge — animated pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-big-damage-with-fall-color-2-export",
+      "title": "Big damage with fall",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-big-damage-with-fall-color-2-export.gif",
+      "featured": true,
+      "width": 2304,
+      "height": 2304,
+      "animated": true,
+      "alt": "Big damage with fall — animated pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-boss-shape-hurt-hit-color-2-export",
+      "title": "Boss hurt reaction · color variant",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-boss-shape-hurt-hit-color-2-export.gif",
+      "featured": true,
+      "width": 2304,
+      "height": 2304,
+      "animated": true,
+      "alt": "Boss hurt reaction · color variant — animated pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-boss-shape-hurt-hit-color-export",
+      "title": "Boss hit reaction",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-boss-shape-hurt-hit-color-export.gif",
+      "featured": true,
+      "width": 2304,
+      "height": 2304,
+      "animated": true,
+      "alt": "Boss hit reaction — animated pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-boss-shape-walking-backward-color-export",
+      "title": "Boss walk backward",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-boss-shape-walking-backward-color-export.gif",
+      "featured": true,
+      "width": 2304,
+      "height": 2304,
+      "animated": true,
+      "alt": "Boss walk backward — animated pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-boss-shape-walking-forward-2-export",
+      "title": "Boss walk forward",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-boss-shape-walking-forward-2-export.gif",
+      "featured": true,
+      "width": 2304,
+      "height": 2304,
+      "animated": true,
+      "alt": "Boss walk forward — animated pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-boss-shape5-idle-animation-export",
+      "title": "Boss idle",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-boss-shape5-idle-animation-export.gif",
+      "featured": true,
+      "width": 1143,
+      "height": 1179,
+      "animated": true,
+      "alt": "Boss idle — animated pixel art"
+    },
+    {
+      "id": "archive-mudassir-khan-death-color-3-1-export",
+      "title": "Death animation",
+      "category": "mudassir-fighter-animations",
+      "src": "assets/mudassir-khan-death-color-3-1-export.gif",
+      "featured": true,
+      "width": 2304,
+      "height": 2304,
+      "animated": true,
+      "alt": "Death animation — animated pixel art"
+    },
+    {
+      "id": "archive-pixel-hwi-chimera-attack",
+      "title": "Chimera attack",
+      "category": "pixel-hwi-chimera-animations",
+      "src": "assets/pixel_hwi-chimera-attack.gif",
+      "featured": true,
+      "width": 1018,
+      "height": 730,
+      "animated": true,
+      "alt": "Chimera attack — animated pixel art"
+    },
+    {
+      "id": "archive-pixel-hwi-chimera-death-fix",
+      "title": "Chimera defeat",
+      "category": "pixel-hwi-chimera-animations",
+      "src": "assets/pixel_hwi-chimera-death-fix.gif",
+      "featured": true,
+      "width": 1018,
+      "height": 730,
+      "animated": true,
+      "alt": "Chimera defeat — animated pixel art"
+    },
+    {
+      "id": "archive-pixel-hwi-chimera-standing",
+      "title": "Chimera standing",
+      "category": "pixel-hwi-chimera-animations",
+      "src": "assets/pixel_hwi-chimera-standing.gif",
+      "featured": true,
+      "width": 1018,
+      "height": 730,
+      "animated": true,
+      "alt": "Chimera standing — animated pixel art"
+    },
+    {
+      "id": "archive-rembrandt-pina-bossaqua",
+      "title": "Bossaqua",
+      "category": "rembrandt-bossaqua",
+      "src": "assets/rembrandt-pina-bossaqua.webp",
+      "featured": true,
+      "width": 1920,
+      "height": 1440,
+      "animated": false,
+      "alt": "Bossaqua — pixel art"
+    },
+    {
+      "id": "archive-rembrandt-pina-hipodragondeath",
+      "title": "Hippodragon defeat",
+      "category": "rembrandt-hippodragon-animations",
+      "src": "assets/rembrandt-pina-hipodragondeath.gif",
+      "featured": true,
+      "width": 1920,
+      "height": 1920,
+      "animated": true,
+      "alt": "Hippodragon defeat — animated pixel art"
+    },
+    {
+      "id": "archive-rembrandt-pina-hipodragonidle",
+      "title": "Hippodragon idle",
+      "category": "rembrandt-hippodragon-animations",
+      "src": "assets/rembrandt-pina-hipodragonidle.gif",
+      "featured": true,
+      "width": 1920,
+      "height": 1920,
+      "animated": true,
+      "alt": "Hippodragon idle — animated pixel art"
+    },
+    {
+      "id": "archive-rembrandt-pina-hipodragonidlenoattack",
+      "title": "Hippodragon idle · no attack",
+      "category": "rembrandt-hippodragon-animations",
+      "src": "assets/rembrandt-pina-hipodragonidlenoattack.gif",
+      "featured": true,
+      "width": 1920,
+      "height": 1920,
+      "animated": true,
+      "alt": "Hippodragon idle · no attack — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-attack-1",
+      "title": "Boss Attack 1",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-attack-1.gif",
+      "featured": true,
+      "width": 1088,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Attack 1 — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-attack-2-catch",
+      "title": "Boss Attack 2 · catch",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-attack-2-catch.gif",
+      "featured": true,
+      "width": 1088,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Attack 2 · catch — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-attack-2-ex",
+      "title": "Boss Attack 2 extended",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-attack-2-ex.gif",
+      "featured": true,
+      "width": 1088,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Attack 2 extended — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-attack-2",
+      "title": "Boss Attack 2",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-attack-2.gif",
+      "featured": true,
+      "width": 1088,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Attack 2 — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-attack-3",
+      "title": "Boss Attack 3",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-attack-3.gif",
+      "featured": true,
+      "width": 1088,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Attack 3 — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-death",
+      "title": "Boss Death",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-death.gif",
+      "featured": true,
+      "width": 1088,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Death — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-idle",
+      "title": "Boss Idle",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-idle.gif",
+      "featured": true,
+      "width": 1024,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Idle — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-roar",
+      "title": "Boss Roar",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-roar.gif",
+      "featured": true,
+      "width": 1024,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Roar — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-stun-show",
+      "title": "Boss Stun Show",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-stun-show.gif",
+      "featured": true,
+      "width": 1312,
+      "height": 416,
+      "animated": true,
+      "alt": "Boss Stun Show — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-turn",
+      "title": "Boss Turn",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-turn.gif",
+      "featured": true,
+      "width": 1024,
+      "height": 544,
+      "animated": true,
+      "alt": "Boss Turn — animated pixel art"
+    },
+    {
+      "id": "archive-sliverdog-tkhy-boss-walk",
+      "title": "Boss Walk",
+      "category": "sliverdog-boss-animations",
+      "src": "assets/sliverdog-tkhy-boss-walk.gif",
+      "featured": true,
+      "width": 1088,
+      "height": 416,
+      "animated": true,
+      "alt": "Boss Walk — animated pixel art"
+    },
+    {
+      "id": "archive-sumin-bae-boss1-idle",
+      "title": "Boss idle",
+      "category": "sumin-bae-boss-animations",
+      "src": "assets/sumin-bae-boss1-idle.gif",
+      "featured": true,
+      "width": 640,
+      "height": 640,
+      "animated": true,
+      "alt": "Boss idle — animated pixel art"
+    },
+    {
+      "id": "archive-sumin-bae-boss1-move-front",
+      "title": "Boss move forward",
+      "category": "sumin-bae-boss-animations",
+      "src": "assets/sumin-bae-boss1-move-front.gif",
+      "featured": true,
+      "width": 640,
+      "height": 640,
+      "animated": true,
+      "alt": "Boss move forward — animated pixel art"
     }
   ]
 }

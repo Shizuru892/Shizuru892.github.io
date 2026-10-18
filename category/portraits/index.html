@@ -3,37 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PFPs &amp; Avatars — Pixel Folio</title>
-  <meta name="description" content="Faces emerging from the dark. A collection of expressive, limited-palette pixel portraits.">
-  <meta name="theme-color" content="#f7f7f9">
-  <meta property="og:title" content="Pixel Folio — A world in every pixel">
+  <title>PFPs &amp; Avatars — Shizuru</title>
+  <meta name="description" content="Explore pixel art environments, character sprites, items, animations, portraits and interfaces. Boss animations, fighter sprites and distinct pixel art collections.">
+  <meta name="theme-color" content="#111215">
+  <meta property="og:title" content="Shizuru — A world in every pixel">
   <meta property="og:description" content="Little details. Entire worlds. A curated collection of pixel art and animation.">
   <meta property="og:type" content="website">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css?v=4a24a9592f">
-  <script src="/app.js?v=3a3b572144" defer></script>
-  <script src="/viewer.js?v=4a5d7f07b1" defer></script>
+  <link rel="stylesheet" href="/styles.css?v=54291bdd98">
+  <script src="/app.js?v=2c471d7a21" defer></script>
+  <script src="/viewer.js?v=71a0ddb7d5" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to artwork</a>
   <header class="header-container">
     <div class="site-header wrap">
-      <a class="brand" href="/" aria-label="Pixel Folio home"><span class="pixel-mark" aria-hidden="true"></span><span class="brand-name">Pixel Folio</span></a>
+      <a class="brand" href="/" aria-label="Shizuru home"><span class="pixel-mark" aria-hidden="true"></span><span class="brand-name">Shizuru</span></a>
       <nav class="primary-nav" aria-label="Main navigation"><a href="/" data-nav="overview">Overview</a><a href="/#collections" data-nav="collections">Collections</a><a href="/about/" data-nav="about">About</a></nav>
-      <a class="header-credit" href="/credits/">Artist credits <span aria-hidden="true">↗</span></a>
     </div>
   </header>
   <main id="main" tabindex="-1"><div class="loading wrap"><span class="loading-pixel" aria-hidden="true"></span><p>Opening the collection…</p></div></main>
-  <footer class="site-footer wrap"><div class="footer-main"><a class="brand" href="/">Pixel Folio</a><p>Little details. Entire worlds.</p></div><div class="footer-links"><a href="/credits/">Artist credits ↗</a><a href="/studio/">Content editor</a><a href="#top" id="back-top">Back to top ↑</a></div><p class="footer-caption">A sample portfolio. All reference artwork belongs to its credited artist.</p></footer>
+  <footer class="site-footer wrap"><div class="footer-main"><a class="brand" href="/">Shizuru</a><p>Little details. Entire worlds.</p></div><div class="footer-links"><a href="mailto:shizurumana6@gmail.com">Email Shizuru ↗</a><a href="#top" id="back-top">Back to top ↑</a></div></footer>
   <dialog id="lightbox" aria-labelledby="art-title">
     <div class="viewer-shell">
       <div class="viewer-toolbar"><span class="viewer-collection" id="viewer-collection"></span><div class="viewer-tools"><button id="zoom-toggle" class="viewer-tool" aria-pressed="false">Actual size</button><button id="close-lightbox" class="round-button" aria-label="Close artwork"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div></div>
       <div class="viewer-stage" id="art-stage"><div class="viewer-track" id="art-track"><div class="viewer-slide"><img id="art-previous-image" alt="" draggable="false"></div><div class="viewer-slide current-slide"><img id="art-image" alt="" draggable="false"></div><div class="viewer-slide"><img id="art-next-image" alt="" draggable="false"></div></div><button class="round-button viewer-prev" id="previous-art" aria-label="Previous artwork"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg></button><button class="round-button viewer-next" id="next-art" aria-label="Next artwork"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></button></div>
-      <div class="viewer-details"><div><p id="art-count" class="viewer-count"></p><h2 id="art-title"></h2><p id="art-credit"></p></div><a id="art-source" target="_blank" rel="noopener noreferrer">Original artwork <span aria-hidden="true">↗</span></a></div>
+      <div class="viewer-details"><div><p id="art-count" class="viewer-count"></p><h2 id="art-title"></h2><p id="art-dimensions"></p></div></div>
       <div class="viewer-filmstrip" id="viewer-filmstrip" aria-label="Artworks in this collection"></div>
       <p class="viewer-hint">Swipe or use ← → to explore · Esc to close</p>
     </div>
   </dialog>
-  <div id="toast" role="status" aria-live="polite"><span id="toast-message"></span><button id="toast-undo" hidden>Undo</button></div>
 </body>
 </html>
