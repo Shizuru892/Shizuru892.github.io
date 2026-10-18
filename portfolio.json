@@ -6,6 +6,46 @@
   },
   "categories": [
     {
+      "id": "pixel-game-showreel",
+      "title": "Game Showreel",
+      "short": "Showreel",
+      "description": "Pixel game animation and gameplay in motion.",
+      "style": "Game animation and gameplay",
+      "layout": "landscape"
+    },
+    {
+      "id": "pixel-game-environments",
+      "title": "Pixel Game Worlds",
+      "short": "Game worlds",
+      "description": "Atmospheric game environments and side-scrolling scenes.",
+      "style": "Dark pixel environments and level design",
+      "layout": "landscape"
+    },
+    {
+      "id": "pixel-game-tilesets",
+      "title": "Game Tilesets",
+      "short": "Game tilesets",
+      "description": "Modular tiles and environment pieces for pixel games.",
+      "style": "Modular terrain and environment assets",
+      "layout": "landscape"
+    },
+    {
+      "id": "pixel-bat-sprites",
+      "title": "Bat Sprites",
+      "short": "Bat sprites",
+      "description": "Bat character variations and sprite studies.",
+      "style": "Pixel character sprite sheets",
+      "layout": "landscape"
+    },
+    {
+      "id": "pixel-vehicle-props",
+      "title": "Vehicle Props",
+      "short": "Vehicle props",
+      "description": "A collection of weathered vehicle props.",
+      "style": "Pixel vehicle variations",
+      "layout": "landscape"
+    },
+    {
       "id": "sliverdog-boss-animations",
       "title": "Boss Animations",
       "short": "Boss GIFs",
@@ -901,6 +941,117 @@
       "height": 640,
       "animated": true,
       "alt": "Boss move forward — animated pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97931141",
+      "title": "Modular dungeon tiles",
+      "category": "pixel-game-tilesets",
+      "src": "assets/gallery-jraw9a-97931141.webp",
+      "featured": true,
+      "width": 400,
+      "height": 400,
+      "animated": false,
+      "alt": "Modular dungeon tiles — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97931343",
+      "title": "Layered cavern background",
+      "category": "pixel-game-environments",
+      "src": "assets/gallery-jraw9a-97931343.webp",
+      "featured": true,
+      "width": 1920,
+      "height": 1080,
+      "animated": false,
+      "alt": "Layered cavern background — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97931236",
+      "title": "Castle passage",
+      "category": "pixel-game-environments",
+      "src": "assets/gallery-jraw9a-97931236.webp",
+      "featured": true,
+      "width": 1920,
+      "height": 1080,
+      "animated": false,
+      "alt": "Castle passage — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97931464",
+      "title": "Cavern side-scroller",
+      "category": "pixel-game-environments",
+      "src": "assets/gallery-jraw9a-97931464.webp",
+      "featured": true,
+      "width": 1590,
+      "height": 895,
+      "animated": false,
+      "alt": "Cavern side-scroller — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97931020",
+      "title": "Ground terrain tiles",
+      "category": "pixel-game-tilesets",
+      "src": "assets/gallery-jraw9a-97931020.webp",
+      "featured": true,
+      "width": 640,
+      "height": 400,
+      "animated": false,
+      "alt": "Ground terrain tiles — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97931089",
+      "title": "Bat sprite variations",
+      "category": "pixel-bat-sprites",
+      "src": "assets/gallery-jraw9a-97931089.webp",
+      "featured": true,
+      "width": 400,
+      "height": 400,
+      "animated": false,
+      "alt": "Bat sprite variations — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97930975",
+      "title": "Castle tilemap",
+      "category": "pixel-game-tilesets",
+      "src": "assets/gallery-jraw9a-97930975.webp",
+      "featured": true,
+      "width": 464,
+      "height": 400,
+      "animated": false,
+      "alt": "Castle tilemap — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-97931197",
+      "title": "Weathered vehicle set",
+      "category": "pixel-vehicle-props",
+      "src": "assets/gallery-jraw9a-97931197.webp",
+      "featured": true,
+      "width": 400,
+      "height": 400,
+      "animated": false,
+      "alt": "Weathered vehicle set — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-102768563",
+      "title": "Castle halls",
+      "category": "pixel-game-environments",
+      "src": "assets/gallery-jraw9a-102768563.webp",
+      "featured": true,
+      "width": 1920,
+      "height": 1080,
+      "animated": false,
+      "alt": "Castle halls — pixel art"
+    },
+    {
+      "id": "gallery-jraw9a-showreel",
+      "title": "Pixel game showreel",
+      "category": "pixel-game-showreel",
+      "src": "assets/gallery-jraw9a-97931552.jpg",
+      "videoSrc": "https://cdn.artstation.com/p/video_sources/003/209/473/videogamesportafolio-fairplaylabs-v1.mp4",
+      "featured": true,
+      "width": 1920,
+      "height": 1080,
+      "animated": false,
+      "alt": "Pixel game showreel"
     }
   ]
 }

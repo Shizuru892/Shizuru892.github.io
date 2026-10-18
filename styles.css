@@ -19,3 +19,5 @@ dialog{width:min(76rem,calc(100vw - 4rem));max-width:none;max-height:calc(100dvh
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}.button:active,.view-all:active,.art-button:active,.chip:active{transform:none}}
 @media(prefers-reduced-transparency:reduce){.site-header{background:var(--surface);backdrop-filter:none}}
 @media(prefers-contrast:more){:root{--muted:#c9c6d1;--line:#777281;--accent:#d9c5ff}.site-header{background:var(--surface);border-color:var(--line);backdrop-filter:none}}
+
+#art-video{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;background:#000}#art-video[hidden],#art-image[hidden],#zoom-toggle[hidden]{display:none!important}
