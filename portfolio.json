@@ -6,6 +6,38 @@
   },
   "categories": [
     {
+      "id": "sliverdog-boss-animations",
+      "title": "Boss Animations",
+      "short": "Boss GIFs",
+      "description": "A complete set of attacks, reactions, and movement for one boss.",
+      "style": "Creature attacks, movement and reactions",
+      "layout": "landscape"
+    },
+    {
+      "id": "mudassir-fighter-animations",
+      "title": "Fighter Animations",
+      "short": "Fighter GIFs",
+      "description": "Combat and reaction loops from one character set.",
+      "style": "Hand-to-hand combat and character animation",
+      "layout": "square"
+    },
+    {
+      "id": "rembrandt-hippodragon-animations",
+      "title": "Hippodragon Animations",
+      "short": "Hippodragon GIFs",
+      "description": "Idle and defeat loops for one aquatic dragon.",
+      "style": "Aquatic dragon animation set",
+      "layout": "landscape"
+    },
+    {
+      "id": "pixel-hwi-chimera-animations",
+      "title": "Chimera Animations",
+      "short": "Chimera GIFs",
+      "description": "Attack, idle, and defeat loops for one detailed chimera.",
+      "style": "Detailed chimera animation set",
+      "layout": "landscape"
+    },
+    {
       "id": "backgrounds",
       "title": "Backgrounds & Environments",
       "short": "Environments",
@@ -19,22 +51,6 @@
       "short": "Arcade scenes",
       "description": "Retro arcade scenes with detailed, cinematic pixel rendering.",
       "style": "Cinematic arcade scenes",
-      "layout": "landscape"
-    },
-    {
-      "id": "pixel-hwi-chimera-animations",
-      "title": "Chimera Animations",
-      "short": "Chimera GIFs",
-      "description": "Attack, idle, and defeat loops for one detailed chimera.",
-      "style": "Detailed chimera animation set",
-      "layout": "landscape"
-    },
-    {
-      "id": "sliverdog-boss-animations",
-      "title": "Boss Animations",
-      "short": "Boss GIFs",
-      "description": "A complete set of attacks, reactions, and movement for one boss.",
-      "style": "Creature attacks, movement and reactions",
       "layout": "landscape"
     },
     {
@@ -60,22 +76,6 @@
       "description": "A cast of cloaked adventurers. Consistent silhouettes and a restrained fantasy palette.",
       "style": "Dark fantasy sprites",
       "layout": "square"
-    },
-    {
-      "id": "mudassir-fighter-animations",
-      "title": "Fighter Animations",
-      "short": "Fighter GIFs",
-      "description": "Combat and reaction loops from one character set.",
-      "style": "Hand-to-hand combat and character animation",
-      "layout": "square"
-    },
-    {
-      "id": "rembrandt-hippodragon-animations",
-      "title": "Hippodragon Animations",
-      "short": "Hippodragon GIFs",
-      "description": "Idle and defeat loops for one aquatic dragon.",
-      "style": "Aquatic dragon animation set",
-      "layout": "landscape"
     },
     {
       "id": "rembrandt-bossaqua",
